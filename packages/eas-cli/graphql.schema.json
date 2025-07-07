@@ -63587,6 +63587,18 @@
         "fields": null,
         "inputFields": [
           {
+            "name": "inputs",
+            "description": null,
+            "type": {
+              "kind": "SCALAR",
+              "name": "JSONObject",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "projectSource",
             "description": null,
             "type": {

@@ -8909,6 +8909,7 @@ export type WorkflowRunGitBranchFilterInput = {
 };
 
 export type WorkflowRunInput = {
+  inputs?: InputMaybe<Scalars['JSONObject']['input']>;
   projectSource: WorkflowProjectSourceInput;
 };
 
